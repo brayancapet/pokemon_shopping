@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+}
+
+.display-pokemon {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 25px;
+  margin: 3%;
+}
+
+.card img {
+  border-radius: 25px;
+}
+
+h6 {
+  color: green;
+}
+
+a {
+  margin-top: 2%;
+}
+
+body {
+  background-color: #fff;
+}
+
+.total_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.total_page li {
+  font-size: 2rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.btn-container button {
+  margin: 1%;
+}
+
+.info_budget_container {
+  margin: 2%;
+  position: sticky;
+  top: 5vh;
+  z-index: 999;
+  color: #25242a;
+  background-color: #fff;
+  width: fit-content;
+  height: fit-content;
+  padding: 2%;
+  border-radius: 25px;
+  border: 2px solid #25242a;
+}
+
+span {
+  cursor: pointer;
+}
